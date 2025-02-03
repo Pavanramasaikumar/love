@@ -1,53 +1,34 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0c042;
 }
-.container{
-    position:absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-image: url("https://th.bing.com/th/id/R.e4f42f4cb086578da6a4ccdc1a825cae?rik=pVJl1f7rynjZIw&riu=http%3a%2f%2fwww.whoa.in%2f201604-Whoa%2fphotoshoot-love-heart-created-by-young-couple-hand-hd-images-photos-fb-images-free-download.jpg&ehk=uslkt%2f08RkbHTmPHMsQom57wTD0OGZC7TgeT85XTXxo%3d&risl=&pid=ImgRaw&r=0");
-    background-position: center; 
-    background-size: cover; 
-    background-repeat: no-repeat;
-}
-.book{
-    position:relative;
-    width: 300px;
-    height: 400px;
-    transform-style: preserve-3d;
-    transform: perspective(2000px);
-}
-.book:hover{
-    z-index: 1;
-    transform: perspective(2000px);
-    box-shadow: inset 10px 0 50px rgba(0,0,0,0,5);
-}
-.book .cover{
+.book {
+    margin-top: 200px;
+    width: 200px;
+    height: 300px;
     position: relative;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/sources/images/pavan.jpg");
+}
+.pageleft{
     width: 100%;
     height: 100%;
-    box-sizing: border-box;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 0px 10px cyan;
     transform-origin: left;
-    z-index: 1;
-    transition: 1s;
+    transition-duration: 1s;
+    background-image: url("https://th.bing.com/th?id=OIP.SCHmZCvSWqOBxygF8uVA4gHaNK&w=187&h=333&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2");
 }
-.book:hover .cover{
-    transform: rotateY(-135deg);
+.book:hover .pageleft {
+    transform: rotateY(-180deg);
 }
-.book .cover img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit:cover ;
-}
-.book .details{
-    position: absolute;
-    top: 0;
-    left:0;
-    box-sizing: border-box;
-    padding: 20px;
+.content {
+    padding: 30px;
+    font-family: Arial, sans-serif;
 }
