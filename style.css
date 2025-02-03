@@ -13,7 +13,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/sources/images/pavan.jpg");
+    background-image: url("pavan.jpg");
 }
 .pageleft{
     width: 100%;
