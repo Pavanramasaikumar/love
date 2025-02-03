@@ -1,0 +1,69 @@
+*body{
+    margin: 0%;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image:url("https://wallpapercave.com/wp/J6m3oF8.jpg");
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+#loginpage{
+    margin-top: 200px;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    background-color:transparent;
+    box-shadow: 0px 0px 10px black,
+                0px 0px 5px black;
+    border-radius: 20px;
+}
+#form{
+    text-align: center;
+    margin-top:60px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-top:40px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(120, 100%, 70%);
+    box-shadow: 0px 0px 10px hsl(120, 100%, 70%),
+                0px 0px 15px hsl(120, 100%, 70%) inset;
+    cursor: pointer;
+}
+.input{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 0px 10px black,
+                0px 0px 15px rgb(145, 144, 144) inset;
+}
+button:hover{
+    background-color: rgb(10, 178, 10);
+}
+h1{
+    text-shadow: 0px 0px 10px black,
+    0px 0px 15px rgb(145, 144, 144) inset;
+    cursor:text;
+    border-radius: 50px;
+    color: white;
+}
+.label{
+    color: antiquewhite;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+a{
+    color: rgb(41, 30, 243);
+    font-size: 0.8em;
+}
